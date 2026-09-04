@@ -136,6 +136,9 @@ def main():
             output["mensas"][name] = {"status": "open", "categories": today_menu}
 
     print(json.dumps(output, indent=2, ensure_ascii=False))
+    
+    with open("menu.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":
