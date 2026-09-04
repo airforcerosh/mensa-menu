@@ -20,6 +20,10 @@ from io import BytesIO
 
 import requests
 import pdfplumber
+from PIL import Image, ImageDraw, ImageFont
+
+FONT_DIR = "/usr/share/fonts/truetype/dejavu"
+IMG_W, IMG_H = 800, 480
 
 MENSAS = {
     "TU Hardenbergstraße": "https://www.stw.berlin/assets/speiseplaene/321/aktuelle_woche_en.pdf",
@@ -97,6 +101,72 @@ def fetch_menu(url: str) -> dict:
     return full
 
 
+def wrap_fit(text, font, max_width, draw):
+    words = text.split()
+    lines, current = [], ""
+    for w in words:
+        test = (current + " " + w).strip()
+        if draw.textlength(test, font=font) <= max_width:
+            current = test
+        else:
+            if current:
+                lines.append(current)
+            current = w
+    if current:
+        lines.append(current)
+    return lines
+
+
+def render_menu_image(output: dict, out_path: str):
+    img = Image.new("1", (IMG_W, IMG_H), 1)  # 1-bit, white background
+    draw = ImageDraw.Draw(img)
+
+    font_title = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 24)
+    font_mensa = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 18)
+    font_cat = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 13)
+    font_dish = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans.ttf", 12)
+    font_status = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans.ttf", 16)
+
+    date_str = datetime.strptime(output["date"], "%Y-%m-%d").strftime("%A, %b %-d")
+    draw.text((15, 10), f"Mensa Menu — {date_str}", font=font_title, fill=0)
+    draw.line([(15, 42), (785, 42)], fill=0, width=2)
+    draw.line([(400, 50), (400, IMG_H - 10)], fill=0, width=1)
+
+    col_positions = [15, 415]
+    col_width = 370
+
+    for i, (name, data) in enumerate(output["mensas"].items()):
+        x = col_positions[i] if i < 2 else col_positions[0]
+        y = 55
+        draw.text((x, y), name, font=font_mensa, fill=0)
+        y += 26
+
+        status = data.get("status")
+        if status == "closed_today":
+            draw.text((x, y), "Closed today", font=font_status, fill=0)
+        elif status == "weekend_no_menu":
+            draw.text((x, y), "No menu (weekend)", font=font_status, fill=0)
+        elif status == "error" or "error" in data:
+            draw.text((x, y), "Menu unavailable", font=font_status, fill=0)
+        elif status == "open":
+            for cat, dishes in data.get("categories", {}).items():
+                if y > IMG_H - 30:
+                    break  # out of vertical space, stop rendering more
+                draw.text((x, y), cat.upper(), font=font_cat, fill=0)
+                y += 16
+                for dish in dishes:
+                    if y > IMG_H - 20:
+                        break
+                    lines = wrap_fit(dish, font_dish, col_width - 10, draw)
+                    for j, line in enumerate(lines):
+                        prefix = "• " if j == 0 else "  "
+                        draw.text((x + 8, y), prefix + line, font=font_dish, fill=0)
+                        y += 15
+                y += 6
+
+    img.save(out_path)
+
+
 def main():
     weekday_idx = datetime.now().weekday()  # Monday=0 ... Sunday=6
     today_de = DAYS_DE[weekday_idx] if weekday_idx < 5 else None
@@ -136,9 +206,11 @@ def main():
             output["mensas"][name] = {"status": "open", "categories": today_menu}
 
     print(json.dumps(output, indent=2, ensure_ascii=False))
-    
+
     with open("menu.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
+
+    render_menu_image(output, "menu.png")
 
 
 if __name__ == "__main__":
