@@ -23,8 +23,7 @@ import pdfplumber
 from PIL import Image, ImageDraw, ImageFont
 
 FONT_DIR = "/usr/share/fonts/truetype/dejavu"
-IMG_W, IMG_H = 1872, 1404  # TRMNL X native resolution
-
+IMG_W, IMG_H = 1872, 1404  
 MENSAS = {
     "TU Hardenbergstraße": "https://www.stw.berlin/assets/speiseplaene/321/aktuelle_woche_en.pdf",
     "HU Süd": "https://www.stw.berlin/assets/speiseplaene/367/aktuelle_woche_en.pdf",
