@@ -23,7 +23,7 @@ import pdfplumber
 from PIL import Image, ImageDraw, ImageFont
 
 FONT_DIR = "/usr/share/fonts/truetype/dejavu"
-IMG_W, IMG_H = 800, 480
+IMG_W, IMG_H = 1872, 1404  # TRMNL X native resolution
 
 MENSAS = {
     "TU Hardenbergstraße": "https://www.stw.berlin/assets/speiseplaene/321/aktuelle_woche_en.pdf",
@@ -121,25 +121,26 @@ def render_menu_image(output: dict, out_path: str):
     img = Image.new("1", (IMG_W, IMG_H), 1)  # 1-bit, white background
     draw = ImageDraw.Draw(img)
 
-    font_title = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 24)
-    font_mensa = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 18)
-    font_cat = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 13)
-    font_dish = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans.ttf", 12)
-    font_status = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans.ttf", 16)
+    # TRMNL X is ~2.34x the OG's linear resolution; scale fonts/layout to match
+    font_title = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 56)
+    font_mensa = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 42)
+    font_cat = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans-Bold.ttf", 30)
+    font_dish = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans.ttf", 28)
+    font_status = ImageFont.truetype(f"{FONT_DIR}/DejaVuSans.ttf", 37)
 
     date_str = datetime.strptime(output["date"], "%Y-%m-%d").strftime("%A, %b %-d")
-    draw.text((15, 10), f"Mensa Menu — {date_str}", font=font_title, fill=0)
-    draw.line([(15, 42), (785, 42)], fill=0, width=2)
-    draw.line([(400, 50), (400, IMG_H - 10)], fill=0, width=1)
+    draw.text((35, 25), f"Mensa Menu — {date_str}", font=font_title, fill=0)
+    draw.line([(35, 98), (1837, 98)], fill=0, width=4)
+    draw.line([(936, 115), (936, IMG_H - 25)], fill=0, width=2)
 
-    col_positions = [15, 415]
-    col_width = 370
+    col_positions = [35, 970]
+    col_width = 865
 
     for i, (name, data) in enumerate(output["mensas"].items()):
         x = col_positions[i] if i < 2 else col_positions[0]
-        y = 55
+        y = 130
         draw.text((x, y), name, font=font_mensa, fill=0)
-        y += 26
+        y += 60
 
         status = data.get("status")
         if status == "closed_today":
@@ -150,19 +151,19 @@ def render_menu_image(output: dict, out_path: str):
             draw.text((x, y), "Menu unavailable", font=font_status, fill=0)
         elif status == "open":
             for cat, dishes in data.get("categories", {}).items():
-                if y > IMG_H - 30:
+                if y > IMG_H - 70:
                     break  # out of vertical space, stop rendering more
                 draw.text((x, y), cat.upper(), font=font_cat, fill=0)
-                y += 16
+                y += 38
                 for dish in dishes:
-                    if y > IMG_H - 20:
+                    if y > IMG_H - 45:
                         break
-                    lines = wrap_fit(dish, font_dish, col_width - 10, draw)
+                    lines = wrap_fit(dish, font_dish, col_width - 20, draw)
                     for j, line in enumerate(lines):
                         prefix = "• " if j == 0 else "  "
-                        draw.text((x + 8, y), prefix + line, font=font_dish, fill=0)
-                        y += 15
-                y += 6
+                        draw.text((x + 18, y), prefix + line, font=font_dish, fill=0)
+                        y += 35
+                y += 14
 
     img.save(out_path)
 
