@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "mensas": {
     "TU Hardenbergstraße": {
-      "status": "closed_today"
+      "status": "weekend_no_menu"
     },
     "HU Süd": {
-      "status": "closed_today"
+      "status": "weekend_no_menu"
     }
   }
 }
