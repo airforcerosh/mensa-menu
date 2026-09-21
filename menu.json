@@ -1,11 +1,100 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "mensas": {
     "TU Hardenbergstraße": {
-      "status": "weekend_no_menu"
+      "status": "open",
+      "categories": {
+        "Vorspeise": [
+          "Bulgur with mint (21a) 1,95 € | 2,15 € | 2,35"
+        ],
+        "Salat": [
+          "Small bowl (13,27,29) 1,95 € | 3,90 € | 4,50",
+          "Large bowl (13,27,29) 0,75 € | 1,50 € | 1,75"
+        ],
+        "Dressing": [
+          "American dressing (28,29) Vinaigrette sauce (28,29) French dressing (29)"
+        ],
+        "Suppe": [
+          "Bell Pepper-vegetable-soup 0,75 € | 1,50 € | 1,75"
+        ],
+        "Preislegende:": [],
+        "Aktion": [
+          "vegan 0,75 € | 0,85 € | 0,90",
+          "Pasta nach sauce and roasted nuts (21a,26c,28) 2,95 € | 3 ,25 € | 3,55 Vegetable stir-fry with rice 3,95",
+          "€ | 4,35 € | 4,75"
+        ],
+        "Essen": [
+          "Crunchy fried patty on lemon turmeric sauce (21a,28) 1,95 € | 3,90 € | 4,50",
+          "Pumpkin Spinach Risotto nuts (26c,28,29) 1,75 € | 3,50 € | 4,05",
+          "soy with sugar, cinnamon berry sauce (28) 1,10 € | 2,20 € | 2,55",
+          "1/2 rice with sugar, cinnamon Strawberry sauce 1,75 € | 3,50 € | 4,05"
+        ],
+        "Beilage": [
+          "Broccoli 0,85 € | 1,70 € | 1,95",
+          "Brussels sprouts onions 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "Potatoes rosemary 0,95 € | 1,90 € | 2,20",
+          "Rice 0,75 € | 1,50 € | 1,75",
+          "Sauce 0,30 € | 0,60 € | 0,70"
+        ],
+        "Dessert": [
+          "Curd muesli (7,21a,21c,21d,26a,26b,30) 0,75 € | 1,50 € | 1,75",
+          "Vegan with berries 0,75 € | 1,50 € | 1,75",
+          "Poppy gurt with tangerines 0,75 € | 1,50 € | 1,75",
+          "Red 0,75 € | 1,50 € | 1,75",
+          "Vanilla 0,75 € | 1,50 € | 1,75",
+          "Chocolate pudding (28) 0,75 € | 1,50 € | 1,75",
+          "Fruit 1,50 € | 1,65 € | 1,80"
+        ]
+      }
     },
     "HU Süd": {
-      "status": "weekend_no_menu"
+      "status": "open",
+      "categories": {
+        "Vorspeise": [
+          "greek with feta cheese 1,95 € | 2,15 € | 2,35",
+          "Curd with herb and linseed (30) 1,95 € | 2,15 € | 2,35"
+        ],
+        "Salat": [
+          "Large bowl (13,27,29) 0,75 € | 1,50 € | 1,75",
+          "Small bowl (13,27,29) 1,95 € | 3,90 € | 4,50"
+        ],
+        "Dressing": [
+          "3 - French dressing (28,29) 1 - herb dressing (28)"
+        ],
+        "Preislegende:": [],
+        "Aktion": [
+          "French 1,45 € | 1,60 € | 1,75",
+          "Garlic mayonnaise Tomato ketchup (7,29) 0,15 € | 0,20 € | 0,25",
+          "Penne nach sauce and roasted nuts (21a,26c,28) 2,95 € | 3,25 € | 3,55",
+          "Margherita pizza with basil (8,21a,36) 4,95 € | 5,45 € | 5,95"
+        ],
+        "Essen": [
+          "7 pieces er falafel balls with Dip (,31) 2,15 € | 4,30 € | 4,95",
+          "Crunchy style patty mushroom (21a,27,28,29) 1,75 € | 3,50 € | 4,05",
+          "Wheat protein ball with mushroom (21a,27,28,29) 1,95 € | 3,90 € | 4,50",
+          "Potato pumpkin stew (27,29) 1,75 € | 3,50 € | 4,05",
+          "Semolina pudding with sugar, mon and Blueberries (21a,28) 1,75 € | 3,50 € | 4,05",
+          "1/2 pudding with sugar, mon and Blueberries (21a,28) 1,10 € | 2,20 € | 2,55"
+        ],
+        "Beilage": [
+          "Carrots 0,85 € | 1,70 € | 1,95",
+          "Turnip cabbage 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "Potatoes rosemary 0,95 € | 1,90 € | 2,20",
+          "Rice 0,75 € | 1,50 € | 1,75",
+          "Sauce 0,30 € | 0,60 € | 0,70"
+        ],
+        "Dessert": [
+          "Vegan nut Brownie (21a,26b,28) 1,10 € | 1,20 € | 1,30",
+          "Brownie (21a,28) 1,25 € | 1,40 € | 1,50",
+          "Chocolate pound cake with (21a,28) 0,90 € | 1,00 € | 1,10",
+          "fruit crumble (21a) 1,25 € | 1,40 € | 1,50",
+          "2 - Curd with (21a,23,30) 0,75 € | 1,50 € | 1,75",
+          "3 - Vegan gurt with raspberries 21a,21c,21d,26a,26b,30) 0,75 € | 1,50 € | 1,75",
+          "1 - yoghurt with cookies 0,75 € | 1,50 € | 1,75"
+        ]
+      }
     }
   }
 }
