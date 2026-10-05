@@ -1,11 +1,106 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "mensas": {
     "TU Hardenbergstraße": {
-      "status": "weekend_no_menu"
+      "status": "open",
+      "categories": {
+        "Vorspeise": [
+          "Bulgur with mint (21a) 1,95 € | 2,15 € | 2,35"
+        ],
+        "Salat": [
+          "Large bowl (13,27,29) 0,75 € | 1,50 € | 1,75",
+          "Small bowl (13,27,29) 1,95 € | 3,90 € | 4,50"
+        ],
+        "Dressing": [
+          "American dressing (29) Vinaigrette sauce (28,29) French dressing (28,29)"
+        ],
+        "Suppe": [
+          "Lemongrass Soup with Ginger 0,75 € | 1,50 € | 1,75"
+        ],
+        "Preislegende:": [],
+        "Aktion": [
+          "Homemade Pasta with tomato sun-dried tomatoes, and basil (8) 0,75 € | 0,85 € | 0,90",
+          "vegan (6,7,8,10,21a,27,32) 2,95 € | 3,25 € | 3,55",
+          "Margherita pizza with basil (21a,30,36) 4,95 € | 5,45 € | 5,95",
+          "Stir-fried vegetables with bamboo shoots, nese cabbage, and (28,29) 4,95 € | 5,45 € | 5,95"
+        ],
+        "Essen": [
+          "Three Swabian plings with wild sauce and herb (21a,28) 1,95 € | 3,90 € | 4,50",
+          "6 Lentil Balls with wild mushroom sauce and herb (21a,21d,28) 2,15 € | 4,30 € | 4,95",
+          "Bahji fried patty a fruity soy-curry sauce (7,28,29) 2,45 € | 4,90 € | 5,65",
+          "Green and Rice Skillet with Peppers and Tomatoes 1,75 € | 3,50 € | 4,05",
+          "soy milk rice gar, cinnamon Apple (28) 1,10 € | 2,20 € | 2,55",
+          "1/2 soy milk with sugar, cinnamon ple sauce (28) 1,75 € | 3,50 € | 4,05"
+        ],
+        "Beilage": [
+          "Broccoli 0,85 € | 1,70 € | 1,95",
+          "Vegetables 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "Potatoes rosemary 0,95 € | 1,90 € | 2,20",
+          "Rice 0,75 € | 1,50 € | 1,75",
+          "Sauce 0,30 € | 0,60 € | 0,70"
+        ],
+        "Dessert": [
+          "Vegan with raspberries 21c,21d,26a,26b,30) 0,75 € | 1,50 € | 1,75",
+          "Curd muesli (30,37) 0,75 € | 1,50 € | 1,75",
+          "Poppy gurt with tangerines 0,75 € | 1,50 € | 1,75",
+          "Red (28) 0,75 € | 1,50 € | 1,75",
+          "Chocolate pudding 0,75 € | 1,50 € | 1,75",
+          "Vanilla 0,75 € | 1,50 € | 1,75",
+          "Fruit 1,50 € | 1,65 € | 1,80"
+        ]
+      }
     },
     "HU Süd": {
-      "status": "weekend_no_menu"
+      "status": "open",
+      "categories": {
+        "Vorspeise": [
+          "greek salad cheese (8,10,30) 1,95 € | 2,15 € | 2,35",
+          "Curd cheese herb and linseed 1,95 € | 2,15 € | 2,35"
+        ],
+        "Salat": [
+          "Small bowl (13,27,29) 0,75 € | 1,50 € | 1,75",
+          "Large bowl (13,27,29) 1,95 € | 3,90 € | 4,50"
+        ],
+        "Dressing": [
+          "3 - French dressing (28) 1 - herb dressing (28,29)"
+        ],
+        "Preislegende:": [],
+        "Aktion": [
+          "Potato plings with leaf spinach and mushrooms (7,29) 0,15 € | 0,20 € | 0,25",
+          "Garlic mayonnaise Tomato ketchup (21a, 30) 4,95 € | 5,45 € | 5,95",
+          "French 1,45 € | 1,60 € | 1,75",
+          "Penne tomato sauce, sun-dried matoes, olives and (6,7,8,10,21a,27,32) 2,95 € | 3,25 € | 3,55",
+          "Tarte with fresh onions flakes (21a,30,36) 3,95 € | 4,35 € | 4,75"
+        ],
+        "Essen": [
+          "6 Lentil Millet with wild mushroom and herb (28,30) 1,75 € | 3,50 € | 4,05",
+          "Two potato pockets with cheese filling with mushroom sauce (7,28,29) 2,4 5 € | 4,90 € | 5,65 Bahji Onion ty a fruity soy-curry and ginger (8,21a,21d,26a, 26b, 27, 28, 36) 2,15",
+          "€ | 4,30 € | 4,95 Broccoli patty with wild mushroom sauce and herb (21a,21d,28) 2,15",
+          "€ | 4,30 € | 4,95 Green Bean Peppers with rice 1,75",
+          "€ | 3,50 € | 4,05 Vanilla corn na porridge with rhubarb-raspberry (28) 1,75",
+          "€ | 3,50 € | 4,05 1/2 Vanilla molina porridge rhubarb-raspberry (28) 1,10",
+          "€ | 2,20 € | 2,55"
+        ],
+        "Beilage": [
+          "Broccoli 0,85 € | 1,70 € | 1,95",
+          "Carrots 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "Baked potatoes 0,95 € | 1,90 € | 2,20",
+          "Rice 0,75 € | 1,50 € | 1,75",
+          "Sauce 0,30 € | 0,60 € | 0,70"
+        ],
+        "Dessert": [
+          "Homemade cake (23,30) 1,80 € | 2,00 € | 2,15",
+          "Brownie (21a,28) 0,90 € | 1,00 € | 1,10",
+          "Vegan nut Brownie (21a,26b,28) 1,10 € | 1,20 € | 1,30",
+          "fruit crumble (21a) 1,25 € | 1,40 € | 1,50",
+          "Chocolate pound cake with (21a,28) 1,25 € | 1,40 € | 1,50",
+          "3 - Vegan gurt with raspberries 0,75 € | 1,50 € | 1,75",
+          "1 - Poppy yogurt with tangerines 0,75 € | 1,50 € | 1,75",
+          "2 - Curd muesli (7,21a,21c,21d,26a,26b,30) 0,75 € | 1,50 € | 1,75"
+        ]
+      }
     }
   }
 }
