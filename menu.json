@@ -1,107 +1,11 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "mensas": {
     "TU Hardenbergstraße": {
-      "status": "open",
-      "categories": {
-        "Vorspeise": [
-          "with Glass noodle salad with mint (6,7,21a, (6,8,21a,28) 1,95 € | 2,15 € | 2,35"
-        ],
-        "Salat": [
-          "salad Large salad bowl (13,27,29) € 1,95 € | 3,90 € | 4,50",
-          "€ salad Small salad bowl (13,27,29) € 0,75 € | 1,50 € | 1,75"
-        ],
-        "Dressing": [
-          "French dressing (28,29) Vinaigrette sauce (29) American dressing (28,29)"
-        ],
-        "Suppe": [
-          "soup cream of veg- (28) € etable soup (27,28) 0,75 € | 1,50 € | 1,75"
-        ],
-        "Aktion": [
-          "fries Hard cheese grated (2,7, (21a,21b,21e,27) € 2,95 € | 3,25 € | 3,55",
-          "€ sausage Homemade pasta with cereal bolognese and € basil (30) 0,75 € | 0,85 € | 0,90",
-          "€ grat- Margherita € pizza with basil (21a,30,36) 4,95 € | 5,45 € | 5,95",
-          "€ pasta sauce and Tom Kha - Thai coconut soup with rice and € soy stripes (28) 4,95 € | 5,45 € | 5,95",
-          "€ pasta (21a,28) € (6,7,8, €"
-        ],
-        "Essen": [
-          "with Eggs with herbal edamame, (6,24,27,28,31) 3,25 € | 6,50 € | 7,50",
-          "€ 0 € Baked pollock fillet in rice breading Soy sauce spelt pat- with Chinese vegetables (21a, (28) 1,55 € | 3,10 € | 3,55",
-          "€ € Soy Goulash with with Soy White Cabbage and Bell € Peppers (23,30) 2,45 € | 4,90 € | 5,65",
-          "€ and Veg- Flat-Leaf Polenta with spinach and mushrooms € (28) 1,75 € | 3,50 € | 4,05"
-        ],
-        "Beilage": [
-          "Vegetables mix € 0,85 € | 1,70 € | 1,95",
-          "€ with Leaf spinach in € soy cream (28) 0,85 € | 1,70 € | 1,95",
-          "€ € Potatoes 0,85 € | 1,70 € | 1,95",
-          "€ sweet Mashed € potatoes (28) 0,95 € | 1,90 € | 2,20",
-          "€ rice (29) Brown rice € 0,75 € | 1,50 € | 1,75",
-          "€ & dip Sauce & dip € 0,30 € | 0,60 € | 0,70",
-          "€ € €"
-        ],
-        "Dessert": [
-          "yogurt Raspberry co- conut curd (21d,26a,30) 0,75 € | 1,50 € | 1,75",
-          "€ € Vegan yoghurt yo- with wild berries (30) 0,75 € | 1,50 € | 1,75",
-          "€ € Pear and oat with yogurt 0,75 € | 1,50 € | 1,75",
-          "€ (26b,30) Vanilla sauce € 0,75 € | 1,50 € | 1,75",
-          "€ fruit jelly Chocolate pudding (, € 21d) sauce 0,75 € | 1,50 € | 1,75",
-          "€ Red fruit jelly € (28) 0,75 € | 1,50 € | 1,75",
-          "€ (, Fruit salad € 1,50 € | 1,65 € | 1,80",
-          "€ salad €"
-        ]
-      }
+      "status": "weekend_no_menu"
     },
     "HU Süd": {
-      "status": "open",
-      "categories": {
-        "Vorspeise": [
-          "salad greek salad with feta cheese (8,10,30) (8,10,30) € 1,95 € | 2,15 € | 2,35",
-          "€ cheese Curd cheese oil with herb and linseed oil (30) € 1,95 € | 2,15 € | 2,35"
-        ],
-        "Salat": [
-          "salad Salad plate special sojaschnitzel (27,28,31) € 3,95 € | 4,35 € | 4,75",
-          "€ salad Salad plate special with marinated soy strips € and roasted sesame seeds (27,28,31) 3,95 € | 4,35 € | 4,75",
-          "€ Small salad bowl (13,27,29) 1,95 € | 3,90 € | 4,50",
-          "€ Large salad bowl (13,27,29) 0,75 € | 1,50 € | 1,75"
-        ],
-        "Dressing": [
-          "3 - French dressing (28) 1 - herb dressing (28,29)"
-        ],
-        "Aktion": [
-          "fries Penne with ce- real bolognese and basil € ( 2 1 a , 2 1b , 2 1 e , 2 7 ) 2 , 9 5 € | 3 , 2 5 € | 3,55 € Tarte flambée with fresh onions and € flakes (21a,30,36) 4,95 € | 5,45",
-          "€ | 5,95 € tomato and Rice with Marinated soy stripes with lemongras, € mushrooms pepper (21a,27,28) flambée 4,95 € | 5,45",
-          "€ | 5,95 € and € soy an d €"
-        ],
-        "Essen": [
-          "Soy sauce Two spelt patties Soy sauce with Chinese veg- etables (6,21a,27,28,31,29) € 2,15 € | 4,30 € | 4,95",
-          "€ spelt pat- Brew Bites in and co- Tomato-Bell Pepper Sauce (6,21a,21e,23,27,28,336) 2,45 € | 4,90 € | 5,65",
-          "€ € Spring roll Soy and sauce with Chinese vegeta- grated bles (21c) 2,15 € | 4,30 € | 4,95",
-          "€ € Eggs with her- rice bal (23,30) su- 2,45 € | 4,90 € | 5,65",
-          "€ sauce Polenta with tomato and eggplant ragout and € lentils (27,28) 1,75 € | 3,50 € | 4,05",
-          "€ Bell Pepper and potatoe Stew with grat- ed soy (28) 1,75 € | 3,50 € | 4,05",
-          "€ Four egg pancakes with chocolate sauce (21a,23,30) 1,75 € | 3,50 € | 4,05"
-        ],
-        "Beilage": [
-          "with Basmati rice 0,85 € | 1,70 € | 1,95",
-          "€ € Peas, corn and beans carrot (28) 0,85 € | 1,70 € | 1,95",
-          "€ € Potatoes 0,85 € | 1,70 € | 1,95",
-          "€ € Baked potatoes 0,95 € | 1,90 € | 2,20",
-          "€ Brown rice € 0,75 € | 1,50 € | 1,75",
-          "€ rice Leaf spinach in € soy cream & dip 0,30 € | 0,60 € | 0,70"
-        ],
-        "Dessert": [
-          "vegan Sauce & dip (21a,28) € 0,90 € | 1,00 € | 1,10",
-          "€ fruit pie with crum- ble (21a) € 1,25 € | 1,40 € | 1,50",
-          "€ pound Brownie vegan (21a,28) (21a,28) 1,25 € | 1,40 € | 1,50",
-          "€ € Chocolate pound Hazelnut cake with banana (23,30) 1,80 € | 2,00 € | 2,15",
-          "€ € Homemade with crum- cheese cake (21a,26b,28) 1,10 € | 1,20 € | 1,30",
-          "€ € Vegan Hazelnut with Brownie (28,30) (26b,30) 0,75 € | 1,50 € | 1,75",
-          "€ € 2 - Blue,berry coconut yogurt (30) curd € (30) 0,75 € | 1,50 € | 1,75",
-          "€ yoghurt 1 - Stracciatella yo- € gurt (30) 0,75 € | 1,50 € | 1,75",
-          "€ curd with 4 - Wildberry yo- € gurt (21d) 0,75 € | 1,50 € | 1,75",
-          "€ sauce € €"
-        ]
-      }
+      "status": "weekend_no_menu"
     }
   }
 }
