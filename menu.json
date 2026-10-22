@@ -1,50 +1,54 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "mensas": {
     "TU Hardenbergstraße": {
       "status": "open",
       "categories": {
         "Vorspeise": [
-          "noodle Hummus sesame seeds, tomatoes, € cucumber, olive lemon (31) 1,95 € | 2,15 € | 2,35"
+          "with Glass salad with mint (6,8,21a,28) oil and 1,95 € | 2,15 € | 2,35"
         ],
         "Salat": [
           "salad Large bowl (13,27,29) € 1,95 € | 3,90 € | 4,50",
           "salad Small bowl (13,27,29) € 0,75 € | 1,50 € | 1,75"
         ],
         "Dressing": [
-          "French dressing (28,29) Vinaigrette sauce (29) American dressing (28,29)"
+          "American dressing (29) French dressing (28,29) Vinaigrette sauce (28,29)"
         ],
         "Suppe": [
-          "Soup Pumpkin Soup and Gin- Coconut Milk and 0,75 € | 1,50 € | 1,75"
+          "with Mushroom Ginger soup (28) € 0,75 € | 1,50 € | 1,75"
         ],
         "Aktion": [
-          "Fries - Gnocchi chili sin leaf spinach and (21a,26c,28) 4,95 € | 5,45 € | 5,95",
-          "€ Hard grat- grated (21a,27,28) 2,95 € | 3,25 € | 3,55",
-          "€ Homemade pasta with soyabolognese and roast- 0,75 € | 0,85 € | 0,90",
-          "€ Pizza mushrooms and (21a,30,36) 5,95 € | 6,55 € | 7,15",
-          ",95 €"
+          "with curry walnuts with fries and coleslaw 1,45 € | 1,60 € | 1,75",
+          "€ French pasta 9,14,27,29) 6,95 € | 7,65 € | 8,35",
+          "(30) € Hard cheese cheese (21a,28) 2,95 € | 3,25 € | 3,55",
+          "€ Homemade with mushroom with smoked tofu and red onions (30) 0,75 € | 0,85 € | 0,90",
+          "€ Tarte flambée with bacon (2,6,7,21a,30,36) 4,95 € | 5,45 € | 5"
         ],
         "Essen": [
-          "gou- Breaded from wheat protein wild mushroom (30) € herb (21a,28,36) 2,45 € | 4,90 € | 5,65",
-          "with filling Vegetable ragout with peas, (27,30) and ginger (26a) € 2,15 € | 4,30 € | 4,95",
-          "Vegan Toma- moussaka potato and Cilan- soy mince (8,28) 1,75 € | 3,50 € | 4,05",
-          "€ Four Vanilla se- cakes with apple with sour (21a, 23, 30) 1,75 € | 3,50 € | 4,05",
-          "30) € semoli- sour €"
+          "Beet buffer turmeric, ley sauce (21a,27,36,29) 2,45 € | 4,90 € | 5,65",
+          "€ Breaded cutlet cutlet wheat protein with with cranberry mustard sauce and (21a,28,31) 2,45 € | 4,90 € | 5,65",
+          "€ Game Sausage with cranberry mustard sauce bake with (2,27,28,29) 2,85 € | 5,70 € | 6,55",
+          "€ Potato with beans and mush- egg pan- rooms sauce (27,28) 1,75 € | 3,50 € | 4,05",
+          "€ Two apple strudel with sauce (21a,23,30,36) 1,75 € | 3,50 € | 4,05",
+          "Rice pudding raisins, almonds, mom (25,30) 1,75 € | 3,50 € | 4,05",
+          "1/2 Rice pudding with raisins, almonds, cardamom (25,30) 1,10 € | 2,20 € | 2,55"
         ],
         "Beilage": [
-          "mix Green € 0,85 € | 1,70 € | 1,95",
-          "cabbage Turnip bage € 0,85 € | 1,70 € | 1,95",
-          "Parsley € potatoes 0,85 € | 1,70 € | 1,95",
-          "potato Potatoes € rosemary 0,95 € | 1,90 € | 2,20",
-          "€ Rice green spelt (21e) & dip 0,75 € | 1,50 € | 1,75",
-          "€ Sauce 0,30 € | 0,60 € | 0,70"
+          "beans Cauliflower € 0,85 € | 1,70 € | 1,95",
+          "cab- Brussels sprouts € 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "€ chive with 0,95 € | 1,90 € | 2,20",
+          "€ Brown with 0,75 € | 1,50 € | 1,75",
+          "Sauce € 0,30 € | 0,60 € | 0,70",
+          "& dip Mayonnaise € (7,29) 0,15 € | 0,20 € | 0,25",
+          "Tomato ketchup (29) 0,15 € | 0,20 € | 0,25"
         ],
         "Dessert": [
-          "and cin- Yoghurt with and sesame seed € 0,75 € | 1,50 € | 1,75",
-          "with hon- Pineapple (30,31) € 0,75 € | 1,50 € | 1,75",
-          "yogurt Vegan with mandarins and € conut 0,75 € | 1,50 € | 1,75",
-          "Red € 0,75 € | 1,50 € | 1,75",
+          "curd Curd Plum with hazelnuts € 0,75 € | 1,50 € | 1,75",
+          "with seed Vegan with peach and walnuts € (26c) 0,75 € | 1,50 € | 1,75",
+          "with Wildberry (30) € gurt (30) 0,75 € | 1,50 € | 1,75",
           "sauce Chocolate € pudding (28) 0,75 € | 1,50 € | 1,75",
+          "Red € 0,75 € | 1,50 € | 1,75",
           "fruit jelly Vanilla € 0,75 € | 1,50 € | 1,75",
           "salad Fruit € 1,50 € | 1,65 € | 1,80"
         ]
@@ -59,44 +63,43 @@
         ],
         "Salat": [
           "plate Salad soy special with marinated sesame strips and roasted seeds (27,28,31) € 3,95 € | 4,35 € | 4,75",
-          "bowl Large bowl (13,27,29) € 0,75 € | 1,50 € | 1,75",
-          "bowl Small bowl (13,27,29) € 1,95 € | 3,90 € | 4,50"
+          "salad Large bowl (13,27,29) € 1,95 € | 3,90 € | 4,50",
+          "salad Small bowl (13,21a,27,29) € 0,75 € | 1,50 € | 1,75"
         ],
         "Dressing": [
-          "3 - French dressing (28) 2 - American dressing (28,29) 1 - herb dressing (28,29)"
+          "2 - American dressing (28,29) 3 - French dressing (28,29) 1 - herb dressing (28)"
         ],
         "Aktion": [
-          "Garlic mayonnaise Tomato ketchup (7,29) € 0,15 € | 0,2 0 € | 0,25 fries French 1,45",
-          "€ | 1,60 € | 1,75 € Penne with mushroom sauce, tofu and parsley 2,95",
-          "€ | 3,25 € | 3,55 € Tarte with with onions and (21a,30,36) (21a,30,36) € 4,95",
-          "€ | 5,45 € | 5,95"
+          "fries French € (21a,30) 4,95 € | 5,45 € | 5,95",
+          "Gnocchi vegetables in cheese € (7,29) 0,15 € | 0,20 € | 0,25",
+          "with Garlic smoked mayonnaise Tomato (21a,28) ketchup € 1,45 € | 1,60 € | 1,75",
+          "flambée Pasta flakes abolognese (21a,27,28) 2,95 € | 3,25 € | 3,55",
+          "€ Tarte with onions and (21a,30,36) 4,95 € | 5,45 € | 5,95"
         ],
         "Essen": [
-          "medal- Broccoli patty with wild mushroom (21a,27, sauce and herb (21a,28,36) € 2,45 € | 4,90 € | 5,65",
-          "patty Breaded cutlet wheat protein with (27,28) € mushroom sauce (8,21a,21d,26a,26b,27,28,36) wild- 2,15 € | 4,30 € | 4,95",
-          "(8,21a, Potato € with beans and mush- rooms (27,28) 1,75 € | 3,50 € | 4,05",
-          "Toma- and Cilan- Yeast dumpling filled with plum € seed sugar with sauce (21a,30,36,37) egg pan- 1,75 € | 3,50 € | 4,05",
-          "sauce €"
+          "cutlet Vegetable with ragout with peas, sauce and and ginger (30,31) 2,95 € | 5,90 € | 6,80",
+          "€ Breaded stew from wheat protein wild mushroom herb (26a) € 2,15 € | 4,30 € | 4,95",
+          "Zucchinis jam, poppy etable and rice filling vani lla sesame sauce (21a,28,36) 2,45 € | 4,90 € | 5,65",
+          "€ Vegan moussaka potato mince (28) 1,75 € | 3,50 € | 4,05",
+          "Two apple strudel with sauce (21a,23,30,36) 1,75 € | 3,50 € | 4,05"
         ],
         "Beilage": [
-          "and corn Broccoli 0,85 € | 1,70 € | 1,95",
-          "€ Red cabbage cabbage ples (7) 0,85 € | 1,70 € | 1,95",
-          "€ White with tomatoes € 0,85 € | 1,70 € | 1,95",
-          "Parsley € potatoes 0,85 € | 1,70 € | 1,95",
-          "Spaetzle € 0,95 € | 1,90 € | 2,20",
-          "Basmati € 0,75 € | 1,50 € | 1,75",
-          "& dip Sauce € 0,30 € | 0,60 € | 0,70"
+          "with ap- Brussels sprouts € 0,85 € | 1,70 € | 1,95",
+          "beans Stewed bage € 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "€ Rice 0,75 € | 1,50 € | 1,75",
+          "(21a) € Sauce rice 0,30 € | 0,60 € | 0,70",
+          "€ & dip €"
         ],
         "Dessert": [
-          "pie with fruit crumble (21a) € 1,25 € | 1,40 € | 1,50",
-          "Hazel- Vegan nut Brownie (21a,28) € 1,25 € | 1,40 € | 1,50",
-          "vegan Chocolate pound cake with € (21a,28) 0,90 € | 1,00 € | 1,10",
-          "Brownie banana (21a,26b,28) € 1,10 € | 1,20 € | 1,30",
-          "cinna- Vegan yogurt mandarins and coconut € (7,30) 0,75 € | 1,50 € | 1,75",
-          "with 2- Blueberry (7,30) curd with sunflower € (30,31) seed 0,75 € | 1,50 € | 1,75",
-          "4- Apple cinnamon yoghurt € 0,75 € | 1,50 € | 1,75",
-          "yogurt 1- Yoghurt (30,37) with honey and € seed pudding 0,75 € | 1,50 € | 1,75",
-          "€ 3- Lemon (8,28) 0,75 € | 1,50 € | 1,75"
+          "Hazel- Brownie (21a,26b,28) € 1,10 € | 1,20 € | 1,30",
+          "fruit banana crumble (21a) 1,25 € | 1,40 € | 1,50",
+          "€ Vegan pie with nut Brownie (21a,28) 1,25 € | 1,40 € | 1,50",
+          "€ Chocolate vegan pound cake with (21a,28) € 0,90 € | 1,00 € | 1,10",
+          "1- Wildberry seeds yogurt (30) 0,75 € | 1,50 € | 1,75",
+          "€ 2- Curd with cherry (30) sesame 0,75 € | 1,50 € | 1,75",
+          "3- Lemon € (8,28) yogurt 0,75 € | 1,50 € | 1,75",
+          "co- € cinna- € pudding €"
         ]
       }
     }
