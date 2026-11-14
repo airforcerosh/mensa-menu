@@ -1,107 +1,11 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "mensas": {
     "TU Hardenbergstraße": {
-      "status": "open",
-      "categories": {
-        "Vorspeise": [
-          "noodle Mediterranean salad with potatoes and € olives (7,8,10,32) 1,95 € | 2,15 € | 2,35"
-        ],
-        "Salat": [
-          "salad Small salad bowl (13,27,29) € 0,75 € | 1,50 € | 1,75",
-          "€ salad Large salad bowl (13,27,29) € 1,95 € | 3,90 € | 4,50"
-        ],
-        "Dressing": [
-          "American dressing (29) French dressing (28,29) Vinaigrette sauce (28, 29)"
-        ],
-        "Suppe": [
-          "cream of vegetable soup (27,28) € 0,75 € | 1,50 € | 1,75"
-        ],
-        "Aktion": [
-          "sausage Hard cheese grat- ed (30) € 0,75 € | 0,85 € | 0,90",
-          "€ fries Homemade toma- (2,7, toes pasta € tomatoo-arugula-sauce (21a,27) made 2,95 € | 3,25 € | 3,55",
-          "€ and Margherita pizza with basil (7,8,10,21a,30,36) € 4,95 € | 5,45 € | 5,95",
-          "€ Pasta Tom Kha - Thai and coconut soup with rice and soy stripes (28) € 4,95 € | 5,45 € | 5,95",
-          "€ grated € €"
-        ],
-        "Essen": [
-          "Stir-Fry Two baked spinach and spelt medallions with mushroom sauce (21a, 21e, 27, 28) € 2,45 € | 4,90 € | 5,65",
-          "€ veg- Steamed coalfish fil- with let Lemon-Pepper with mango curry sauce 30, 29) (21a, € 2 1 e, 2 3 , 2 7 , 2 8 , 3 0 ) 2 ,6 5 € | 5 , 3 0 € | 6,10 € casse- Two baked veg- red etable medallions with onions mushroom sauce (24, 28, € 30,29) 3,45 € | 6,90",
-          "€ | 7,95 € rice Potato and Squash su- Stew with Coconut Milk (30) and Chickpeas € 1,75 € | 3,50",
-          "€ | 4,05 € Creamy cinna- wild €"
-        ],
-        "Beilage": [
-          "Carrot sticks € 0,85 € | 1,70 € | 1,95",
-          "€ beans Leaf spinach € 0,85 € | 1,70 € | 1,95",
-          "€ Parsley € potatoes 0,85 € | 1,70 € | 1,95",
-          "€ (21a) € Homemade potato salad vinegar / oil rice (13,29) € 0,95 € | 1,90 € | 2,20",
-          "€ & dip rice € 0,75 € | 1,50 € | 1,75",
-          "€ Sauce & dip 0,30 € | 0,60 € | 0,70",
-          "€ € €"
-        ],
-        "Dessert": [
-          "curd Mango curd (7,21e,30) 0,75 € | 1,50 € | 1,75",
-          "€ € Vegan yogurt with blueberries and al- monds € (26a) 0,75 € | 1,50 € | 1,75",
-          "€ yogurt Apple-green spelt yogurt € (30) 0,75 € | 1,50 € | 1,75",
-          "€ fruit jelly Rice pudding (30) € 0,75 € | 1,50 € | 1,75",
-          "€ Chocolate pudding (21d) € 0,75 € | 1,50 € | 1,75",
-          "€ Red fruit jelly 0,75 € | 1,50 € | 1,75",
-          "€ € Vanilla sauce 0,75 € | 1,50 € | 1,75",
-          "€ Chocolate € pudding (21d) sauce 0,75 € | 1,50 € | 1,75",
-          "€ Chocolate € pudding (28) salad 0,75 € | 1,50 € | 1,75",
-          "€ € Fruit salad 1,50 € | 1,65 € | 1,80"
-        ]
-      }
+      "status": "weekend_no_menu"
     },
     "HU Süd": {
-      "status": "open",
-      "categories": {
-        "Vorspeise": [
-          "salad greek salad with feta cheese (8,10,30) (8,10,30) € 1,95 € | 2,15 € | 2,35",
-          "€ cheese Curd cheese oil with herb and linseed oil (30) € 1,95 € | 2,15 € | 2,35"
-        ],
-        "Salat": [
-          "special Salad plate special strips with marinated soy strips seeds and roasted sesame seeds (27,28,31) € 3,95 € | 4,35 € | 4,75",
-          "€ salad Small salad bowl (13,27,29) 0,75 € | 1,50 € | 1,75",
-          "€ € Large salad bowl salad (13,23,27,29) 1,95 € | 3,90 € | 4,50"
-        ],
-        "Dressing": [
-          "3 - French dressing (28,29) 2 - American dressing (28,29) 1 - herb dressing (28)"
-        ],
-        "Aktion": [
-          "Pasta with paprika sauce and green pepperoni (6,21a,27) € 2,95 € | 3,25 € | 3 ,55 € fries Margherita pizza with basil (21a,30,36) € 4,95",
-          "€ | 5,45 € | 5,95 € with len- € €"
-        ],
-        "Essen": [
-          "cooked eg- Three Swabian dum- plings with mushroom (23, sauce (28) € 1,75 € | 3,50 € | 4,05",
-          "€ protein Edamame fried patty jus with mint Dip (21a,27,28,29) 1,95 € | 3,90 € | 4,50",
-          "€ € Wheat protein meat- and veg- ball with mushroom sauce cashew (21a,27,28,29) 1,95 € | 3,90 € | 4,50",
-          "€ € Soft Wheat stew with and vegetable-Fry with Soy Strips and Hazelnuts (27,29) € (21a,26b,27,28) 3,25 € | 6,5 0 € | 7,50 € semoli- sugar and Beans and pea stew (27,29) 1,75",
-          "€ | 3,50 € | 4,05 € sauce Vanilla semolina por- € ridge with sugar and cinna- Vanilla se- mon with with sugar rhubarb-raspberry sauce (21a,30) 1,75",
-          "€ | 3,50 € | 4,05 € sauce 1/2 Vanilla semolina € porridge with sugar and cin- namon with rhubarb-raspberry sauce (21a,30) 1,10",
-          "€ | 2,20 € | 2,55 €"
-        ],
-        "Beilage": [
-          "beans Carrot sticks € 0,85 € | 1,70 € | 1,95",
-          "€ Leaf spinach € 0,85 € | 1,70 € | 1,95",
-          "€ Parsley € potatoes 0,85 € | 1,70 € | 1,95",
-          "€ sweet Homemade potato € salad with mayonnaise (7, 13,29) 0,95 € | 1,90 € | 2,20",
-          "€ € Wild rice & dip 0,75 € | 1,50 € | 1,75",
-          "€ € Sauce & dip 0,30 € | 0,60 € | 0,70"
-        ],
-        "Dessert": [
-          "Hazelnut fruit pie with crumble (21a,28) € 1,25 € | 1,40 € | 1,50",
-          "€ with Homemade cheese cake (21a,28) € 0,90 € | 1,00 € | 1,10",
-          "€ pound Vegan Hazelnut Brownie (23,30) (21a,26b,28) € 1,10 € | 1,20 € | 1,30",
-          "€ Brownie vegan (23,30) 1,80 € | 2,00 € | 2,15",
-          "€ € Chocolate pound vegan cake with banana (21a) € 1,25 € | 1,40 € | 1,50",
-          "€ yogurt 5 - Rhubarb curd with almonds € 0,75 € | 1,50 € | 1,75",
-          "€ green 4 - Vegan yogurt with strawberries (30) € 0,75 € | 1,50 € | 1,75",
-          "€ 1 - Blueberry yoghurt (30) 0,75 € | 1,50 € | 1,75",
-          "€ € 3 - Vegan yoghurt with yogurt apple and cinnamon (7) 0,75 € | 1,50 € | 1,75",
-          "€ € 2 - Mango curd curd with (26a,30) 0,75 € | 1,50 € | 1,75"
-        ]
-      }
+      "status": "weekend_no_menu"
     }
   }
 }
