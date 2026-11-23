@@ -1,11 +1,96 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "mensas": {
     "TU Hardenbergstraße": {
-      "status": "weekend_no_menu"
+      "status": "open",
+      "categories": {
+        "Vorspeise": [
+          "Bulgur with mint (21a) 1,95 € | 2,15 € | 2,35"
+        ],
+        "Salat": [
+          "Large bowl (13,27,29) 0,75 € | 1,50 € | 1,75",
+          "Small bowl (13,27,29) 1,95 € | 3,90 € | 4,50"
+        ],
+        "Dressing": [
+          "French dressing (28,29) Vinaigrette sauce (29) American dressing (28,29)"
+        ],
+        "Suppe": [
+          "Cauliflower soup (28) 0,75 € | 1,50 € | 1,75"
+        ],
+        "Preislegende:": [],
+        "Aktion": [
+          "Homemade Pasta with mushroom sauce and herb (8) 0,75 € | 0,85 € | 0,90",
+          "vegan (21a,28) 2,95 € | 3,25 € | 3,55",
+          "Margherita pizza with basil (21a,30,36) 4,95 € | 5,45 € | 5,95",
+          "Vegetables from the wok with ger and rice (27,28,29) 3,95 € | 4,35 € | 4,7"
+        ],
+        "Essen": [
+          "6 pieces protein balls with and zucchini sauce 1,95 € | 3,90 € | 4,50",
+          "Edamame patty with mint Dip 1,75 € | 3,50 € | 4,05",
+          "White cabbage with root vegetables parsley (27,29) 1,75 € | 3,50 € | 4,05",
+          "1/2 rice with sugar, cinnamon Strawberry sauce 1,10 € | 2,20 € | 2,55",
+          "soy with sugar, cinnamon berry sauce (28) 1,75 € | 3,50 € | 4,05"
+        ],
+        "Beilage": [
+          "Broccoli 0,85 € | 1,70 € | 1,95",
+          "Buttered 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "Baked potatoes 0,95 € | 1,90 € | 2,20",
+          "Curried 0,75 € | 1,50 € | 1,75",
+          "Sauce 0,30 € | 0,60 € | 0,70"
+        ],
+        "Dessert": [
+          "Vegan with apple and cinnamon (7) 0,75 € | 1,50 € | 1,75",
+          "Banana conut yogurt (26a,26b,26c,30) 0,75 € | 1,50 € | 1,75",
+          "Curd with roasted nuts 0,75 € | 1,50 € | 1,75",
+          "Red 0,75 € | 1,50 € | 1,75",
+          "Chocolate pudding (28) 0,75 € | 1,50 € | 1,75",
+          "Vanilla sauce 0,75 € | 1,50 € | 1,75",
+          "Fruit 1,50 € | 1,65 € | 1,80"
+        ]
+      }
     },
     "HU Süd": {
-      "status": "weekend_no_menu"
+      "status": "open",
+      "categories": {
+        "Vorspeise": [
+          "greek with feta cheese 1,95 € | 2,15 € | 2,35",
+          "Curd with herb and linseed (30) 1,95 € | 2,15 € | 2,35"
+        ],
+        "Salat": [
+          "Salad special with marinated strips and roasted seeds (27,28,31) 3,95 € | 4,35 € | 4,75",
+          "Small salad (13,21a,27,29) 1,95 € | 3,90 € | 4,50",
+          "Large salad (13,21a,27,29) 0,75 € | 1,50 € | 1,75"
+        ],
+        "Dressing": [
+          "3 - French dressing (28) 2 - American dressing (28,29) 1 - herb dressing (28,29)"
+        ],
+        "Preislegende:": [],
+        "Aktion": [
+          "Penne til Bolognese (21a,27) 2,95 € | 3,25 € | 3,55"
+        ],
+        "Essen": [
+          "6 pieces protein balls with and zucchini sauce 1,75 € | 3,50 € | 4,05",
+          "Chili with 28,29) 1,75 € | 3,50 € | 4,05",
+          "Four cakes with apple (21a,23,30) 1,75 € | 3,50 € | 4,05"
+        ],
+        "Beilage": [
+          "Carrots 0,85 € | 1,70 € | 1,95",
+          "Potatoes 0,85 € | 1,70 € | 1,95",
+          "Baked potatoes 0,95 € | 1,90 € | 2,20",
+          "Rice 0,75 € | 1,50 € | 1,75",
+          "Sauce 0,30 € | 0,60 € | 0,70"
+        ],
+        "Dessert": [
+          "fruit crumble (21a,28) 0,90 € | 1,00 € | 1,10",
+          "Brownie (21a,28) 1,25 € | 1,40 € | 1,50",
+          "Chocolate pound cake with (21a,26b,28) 1,10 € | 1,20 € | 1,30",
+          "Vegan nut Brownie (21a) 1,25 € | 1,40 € | 1,50",
+          "2 - Curd cheese roasted nuts (30,37) 0,75 € | 1,50 € | 1,75",
+          "1 - Poppy yogurt with tangerines (26a,26b,26c,30) 0,75 € | 1,50 € | 1,75",
+          "3 - Vegan yoghurt with apple namon (7) 0,75 € | 1,50 € | 1,75"
+        ]
+      }
     }
   }
 }
